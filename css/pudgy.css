@@ -97,7 +97,7 @@ h5 {
 #landing {
   border-radius: 0px 0px 120px 120px;
   background: #699FFA;
-  height: 97vh;
+  height: 90vh;
 }
 @media screen and (max-width: 576px) {
   #landing {
@@ -185,7 +185,7 @@ h5 {
 }
 @media screen and (max-width: 768px) {
   #landing .next-section-btn {
-    bottom: 50px;
+    bottom: 70px;
   }
 }
 #description {
