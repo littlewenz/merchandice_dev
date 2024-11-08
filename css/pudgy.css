@@ -93,6 +93,12 @@ h5 {
   margin-top: 25px;
   margin-bottom: -35px;
 }
+@media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
+  #MerchAndIceName {
+    margin-top: 0px;
+    margin-bottom: -55px;
+  }
+}
 #landing {
   border-radius: 0px 0px 120px 120px;
   background: #699FFA;
@@ -111,27 +117,28 @@ h5 {
 #landing .logo {
   height: 100px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #landing .logo {
     height: 50px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
+  #landing .logo {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
   #landing .logo-underline {
     width: 100px;
     position: relative;
     top: -15px;
   }
 }
-#landing .underline {
-  width: 190px;
-  position: relative;
-  top: -20px;
-}
-@media screen and (max-width: 576px) {
-  #landing .underline {
-    width: 120px;
-    top: -10px;
+@media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
+  #landing .logo-underline {
+    width: 100px;
+    position: relative;
+    top: -15px;
   }
 }
 #landing .align-items-center {
@@ -206,6 +213,11 @@ h5 {
   position: relative;
   text-align: center;
   bottom: -100px;
+}
+@media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
+  #landing .next-section-btn {
+    bottom: 30px;
+  }
 }
 #description {
   padding-top: 150px;

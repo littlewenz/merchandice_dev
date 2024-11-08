@@ -110,6 +110,11 @@ h5 {
     line-height: normal;
     margin-top: 25px;
     margin-bottom: -35px;
+    
+    @media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
+        margin-top: 0px;
+        margin-bottom: -55px;
+    }
 }
 
 #landing {
@@ -129,31 +134,30 @@ h5 {
     .logo {
         height: 100px;
 
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 768px) {
+            height: 50px;
+        }
+    
+        @media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
             height: 50px;
         }
     }
 
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 768px) {
         .logo-underline {
             width: 100px;
             position: relative;
             top: -15px;
         }
     }
-
-    .underline {
-        width: 190px;
-        position: relative;
-        top: -20px;
-
-        @media screen and (max-width: 576px) {
-            width: 120px;
-            top: -10px;
+    
+    @media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
+        .logo-underline {
+            width: 100px;
+            position: relative;
+            top: -15px;
         }
     }
-
-    
 
     .align-items-center {
         height: 100%;
@@ -229,6 +233,10 @@ h5 {
         position: relative;
         text-align: center;
         bottom: -100px;
+    
+        @media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
+            bottom: 30px;
+        }
     }
 }
 
