@@ -91,6 +91,7 @@ h5 {
   font-weight: 400;
   line-height: normal;
   margin-top: 25px;
+  margin-bottom: -25px;
 }
 #landing {
   border-radius: 0px 0px 120px 120px;
