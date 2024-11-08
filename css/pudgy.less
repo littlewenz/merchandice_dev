@@ -108,11 +108,16 @@ h5 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 25px;
 }
 
 #MerchAndIceLandingInfo
 {
-    margin-top: -80px;
+    margin-top: -230px;
+
+    @media screen and (max-width: 576px) {
+        margin-top: -175px;
+    }
 }
 
 #landing {
@@ -127,6 +132,25 @@ h5 {
 
     @media screen and (max-width: 768px) {
         height: 95vh;
+    }
+
+    .logo {
+        height: 100px;
+
+        @media screen and (max-width: 576px) {
+            height: 75px;
+        }
+    }
+
+    .underline {
+        width: 190px;
+        position: relative;
+        top: -20px;
+
+        @media screen and (max-width: 576px) {
+            width: 120px;
+            top: -10px;
+        }
     }
 
     
@@ -202,7 +226,7 @@ h5 {
         .mobile-bottom
         {
             position: absolute;
-            bottom: 70px;
+            bottom: 100px;
             left: 0px;  
         }   
     }
@@ -214,7 +238,7 @@ h5 {
         bottom: 80px;
 
         @media screen and (max-width: 768px) {
-            bottom: 30px;
+            bottom: 55px;
         }
     }
 }
