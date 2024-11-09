@@ -112,24 +112,24 @@ h5 {
 }
 @media screen and (max-width: 768px) {
   #landing .logo {
-    height: 50px;
+    height: 75px;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
   #landing .logo {
-    height: 50px;
+    height: 75px;
   }
 }
 @media screen and (max-width: 768px) {
   #landing .logo-underline {
-    width: 100px;
+    width: 150px;
     position: relative;
     top: -15px;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 1200px) and (min-aspect-ratio: 1/1) {
   #landing .logo-underline {
-    width: 100px;
+    width: 150px;
     position: relative;
     top: -15px;
   }
