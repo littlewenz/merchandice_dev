@@ -228,9 +228,8 @@ h5 {
   border-radius: 20px;
   border: none;
   background-color: #699FFA;
-  left: -1px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 576px) {
   #members .card {
     left: -3px;
   }
