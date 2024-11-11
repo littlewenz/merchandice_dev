@@ -1,8 +1,6 @@
 @default-blue: #699FFA;
-@default-blue-light: #8FB7FB;
 @christmas-red: #e24e4e;
 @theme-colour: @default-blue;
-@theme-colour-light: @default-blue-light;
 @card-width: 23rem;
 
 @font-face {
@@ -353,6 +351,11 @@ h5 {
         }
     }
 
+
+    .swiper {
+        height: 120%;
+    }
+
     .swiper-slide {
         justify-items: center;
 
@@ -364,7 +367,14 @@ h5 {
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(255,255,255,0.5);
+            background-color: rgba(255,255,255,0.6);
+        }
+    }
+
+    .swiper-slide-prev, .swiper-slide-next {
+        .card::before {
+            content: "";
+            background-color: rgba(255,255,255,0.3);
         }
     }
 
@@ -373,6 +383,14 @@ h5 {
             content: "";
             display: none;
         }
+    }
+
+    .swiper-pagination {
+        bottom: -5px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: @theme-colour;
     }
 }
 
